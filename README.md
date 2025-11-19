@@ -11,8 +11,7 @@ The system classifies structures into four severity levels — *no damage*, *lig
 
 ## 🚀 Key Features
 
-* **🔐 Privacy-Preserving Training**  
- A noise-aware, gradient-clipped optimization process helps safeguard sensitive visual patterns during model training.
+* **🔐 Privacy-Preserving Training**  Training uses controlled noise and gradient clipping to help protect sensitive visual patterns.
 
 * **⚡ Lightweight Model Compression**
   Post-training model optimization via parameter pruning for smaller, faster deployment.
@@ -77,8 +76,8 @@ disaster-damage-assessment/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/Kennesaw-IntelliTrust-Lab/DP-YOLOv5s-Lightweight-DamageDetection.git
-cd DP-YOLOv5s-Lightweight-DamageDetection
+git clone https://github.com/Kennesaw-IntelliTrust-Lab/Lightweight-and-Privacy-Enhanced-Damage-Detection-Framework.git
+cd Lightweight-and-Privacy-Enhanced-Damage-Detection-Framework
 ```
 
 ### 2️⃣ Install Dependencies
