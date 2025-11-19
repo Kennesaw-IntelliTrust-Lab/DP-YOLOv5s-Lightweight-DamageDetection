@@ -1,17 +1,18 @@
 
 ---
 
-# Disaster Damage Assessment with Privacy-Preserving YOLOv5
+# Lightweight and Privacy-Enhanced Damage Detection Framework
 
-This repository presents a **Differential Privacy (DP)**–enhanced YOLOv5 pipeline for **automated building-damage detection** from post-disaster imagery.
-The system classifies buildings into four severity levels — **no damage**, **light damage**, **moderate damage**, and **severe damage** — while ensuring **privacy protection**, **lightweight inference**, and **visual interpretability** for emergency-response applications.
+**This repository presents a robust, lightweight pipeline for automated building-damage detection from post-disaster imagery.  
+The system classifies structures into four severity levels — *no damage*, *light damage*, *moderate damage*, and *severe damage* — while emphasizing efficient inference, reliable performance, and clear visual interpretability to support real-time emergency-response operations.**
+
 
 ---
 
 ## 🚀 Key Features
 
-* **🔐 Differentially Private Fine-tuning**
-  YOLOv5s is trained with [Opacus](https://opacus.ai/) for differential privacy, combining gradient clipping and calibrated noise injection to protect sensitive visual data.
+* **🔐 Privacy-Preserving Training**  
+ A noise-aware, gradient-clipped optimization process helps safeguard sensitive visual patterns during model training.
 
 * **⚡ Lightweight Model Compression**
   Post-training model optimization via parameter pruning for smaller, faster deployment.
@@ -27,11 +28,11 @@ The system classifies buildings into four severity levels — **no damage**, **l
 
 ---
 
-## 🚁 Rapid Building Damage Assessment (DP-YOLOv5s)
+## 🚁 Rapid Building Damage Assessment 
 
 Real-time aerial (UAV) damage assessment for post-disaster response.  
 Model is:
-- fine-tuned with differential privacy (Opacus),
+- fine-tuned with differential privacy,
 - pruned for deployment on edge hardware,
 - constrained to show only semantic severity labels (no raw confidences),
 - and filters out low-confidence false positives (<50%).
@@ -76,7 +77,7 @@ disaster-damage-assessment/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/oaphyapran365/DP-YOLOv5s-Lightweight-DamageDetection.git
+git clone https://github.com/Kennesaw-IntelliTrust-Lab/DP-YOLOv5s-Lightweight-DamageDetection.git
 cd DP-YOLOv5s-Lightweight-DamageDetection
 ```
 
@@ -213,28 +214,11 @@ For more details, visit: https://www.gnu.org/licenses/agpl-3.0.html
 ---
 
 ## 🙌 Acknowledgments
-
-* [Ultralytics YOLOv5](https://github.com/ultralytics/yolov5) for the base architecture
-* [Opacus](https://opacus.ai/) for DP integration
 * **IntelliTrust-Lab**
 * **Kennesaw State University (KSU)** for research support
 
 ---
 
-## 🧠 Citation
-
-```bibtex
-@misc{disasterdp2025,
-  author = {Abdullahil Oaphy, Honghui Xu and collaborators},
-  title  = {Lightweight and Privacy-Enhanced Detection Model on Aerial Imagery for
-Post-Disaster Building Damage Reconnaissance},
-  year   = {2025},
-  note   = {GitHub Repository},
-  url    = {https://github.com/oaphyapran365/DP-YOLOv5s-Lightweight-DamageDetection.git}
-}
-```
-
----
 
 
 
