@@ -46,7 +46,7 @@ Model is:
 ## 📁 Repository Structure
 
 ```text
-disaster-damage-assessment/
+Lightweight-and-Privacy-Enhanced-Damage-Detection-Framework/
 ├─ README.md
 ├─ requirements.txt
 ├─ .gitignore
